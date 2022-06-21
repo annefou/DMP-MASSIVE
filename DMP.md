@@ -30,7 +30,6 @@ In most cases, this input data will need to be downloaded and pre-process to fac
 
 The final products will be open and use standard formats with additional metadata for provenance.
 
-
 **Software**: Matlab, Python, ArcGIS, Gamma Remote Sensing, 
 **Data Format**: Tiff, GeoTiff, Shapefile,
 
@@ -95,8 +94,27 @@ Not sure how much we would need to transfer yet.
 - from the NIRD toolkit service, we would have a specific "public" folder and we will set up a jupyterhub using the NIRD toolkit service.
 - Anyone having access to this jupyterhub (access is controlled by the project coordinator and/or data manager) will be able to access public data.  Restricted data (to project partners only) will be controlled using classical UNIX permissions on the NIRD project area (only those having access to NS1000K) will be able to access the data.
 
+
+
+## End of project
+
 ### Data availability
 
-All data will be made available to others.
+All data will be made available to others. 
 
+**Remark**: Data will be made available as soon as the data has been analysed. As soon as we create a Research Object and publish it in ROHub. Data will be versioned in case we need to provide correction or improvements.
 
+### Data accessibility
+
+- NIRD archive
+- RoHub
+- NVE glacier database
+- World Glacier Monitoring Service (WGMS)
+- National Snow and Ice Data Center (NSIDC, potentially)
+- EUDAT B2SHARE & B2SAFE (if service within EOSC-Nordic project is made available)
+
+### Method for selecting the data for reuse and ensure it can be reused
+
+Creating research objects in https://reliance.rohub.org/ will ensure the FAIRness of our data. We will work in collaboration with the H2020-RELIANCE project (Research Lifecycle Management technologies for Earth Science Communities and Copernicus users in EOSC - INFRAEOSC-07-2020 Research and Innovation action - Grant number 101017501. 2 years project starting from January 2021.).
+
+The University of Oslo/Department of Geosciences is one of the partner of this project and MASSIVE is one of the use cases for the RELIANCE project.
